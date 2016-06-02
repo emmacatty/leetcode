@@ -10,7 +10,7 @@ public class C319_BulbSwitcherTest {
     @Test
     public void bulbSwitch() throws Exception {
         C319_BulbSwitcher example = new C319_BulbSwitcher();
-        System.out.println(example.bulbSwitch(3));
+        System.out.println(example.bulbSwitch(99999));
     }
 
 }

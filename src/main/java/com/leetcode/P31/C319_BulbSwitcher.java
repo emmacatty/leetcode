@@ -6,15 +6,6 @@ package com.leetcode.P31;
  */
 public class C319_BulbSwitcher {
     public int bulbSwitch(int n) {
-        if (n == 1) {
-            return 1;
-        }
-        int res = 0;
-        for (int i = 2; i <=n; i++ ) {
-            if (n%i == 0) {
-                res++;
-            }
-        }
-        return res;
+        return (int)Math.sqrt(n);
     }
 }
