@@ -16,5 +16,15 @@ public class C338_CountingBitsTest {
         int[] res = test.countBits(5);
         int[] expectRes = {0,1,1,2,1,2};
         assertArrayEquals(res, expectRes);
+
+        String aa = "";
+        if (aa.isEmpty()) {
+            System.out.println("test is empty");
+        } else {
+            System.out.println("wrong");
+        }
+
+
+
     }
 }
