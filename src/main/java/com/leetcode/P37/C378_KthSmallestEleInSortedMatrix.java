@@ -6,6 +6,6 @@ package com.leetcode.P37;
  */
 public class C378_KthSmallestEleInSortedMatrix {
     public int kthSmallest(int[][] matrix, int k) {
-
+        return 0;
     }
 }
